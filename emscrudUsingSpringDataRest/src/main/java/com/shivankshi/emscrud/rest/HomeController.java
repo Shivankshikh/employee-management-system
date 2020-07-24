@@ -13,12 +13,12 @@ public class HomeController {
 	@RequestMapping("/")
 	public String home()
 	{
-		logger.info("welcome in the EMS");
-		logger.debug("debug level log");
-	    logger.info("info level log");
-	    logger.error("error level log");
-	    logger.trace("In home Controller");
-		return "Welcome to the Employee Management System Web Application";
+      //logger.info("welcome in the EMS");
+      logger.debug("debug level log");
+      logger.info("info level log");
+      logger.error("error level log");
+      logger.trace("In home Controller");
+      return "Welcome to the Employee Management System Web Application";
 	}
 
 }
