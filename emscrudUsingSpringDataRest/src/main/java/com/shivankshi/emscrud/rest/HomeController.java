@@ -14,7 +14,7 @@ public class HomeController {
 	public String home()
 	{
       //logger.info("welcome in the EMS");
-      logger.debug("debug level log");
+      //logger.debug("debug level log");
       logger.info("info level log");
       logger.error("error level log");
       logger.trace("In home Controller");
